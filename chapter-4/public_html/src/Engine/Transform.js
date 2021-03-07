@@ -1,14 +1,3 @@
-/* 
- * File: Transform.js
- * Encapsulates the matrix transformation functionality, meant to work with
- * Renderable
- */
-
-/*jslint node: true, vars: true */
-/*global gEngine: false, vec2: false, Math: false, mat4: false, vec3: false */
-/* find out more about jslint: http://www.jslint.com/help.html */
-
-"use strict";
 
 function Transform() {
     this.mPosition = vec2.fromValues(0, 0);  // this is the translation
